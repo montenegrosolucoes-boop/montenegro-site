@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Montenegro Soluções Empresariais</title>
+<meta content="Soluções contábeis, jurídicas e empresariais modernas e confiáveis em Petrópolis/RJ. Consultoria fiscal, contábil, societária e jurídica com excelência." name="description"/>
+<meta content="#0f172a" name="theme-color"/>
+<link href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='100%25' height='100%25' rx='24' fill='%230f172a'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='64' fill='white'%3EMS%3C/text%3E%3C/svg%3E" rel="icon"/>
+<meta content="Montenegro Soluções Empresariais" property="og:title"/>
+<meta content="Soluções contábeis, jurídicas e empresariais modernas e confiáveis." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://www.montenegrosolucoes.com.br" property="og:url"/>
+<meta content="https://www.montenegrosolucoes.com.br/og-image.jpg" property="og:image"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind via CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'] },
+          colors: {
+            brand: {
+              50: '#eef2ff', 100: '#e0e7ff', 200: '#c7d2fe', 300: '#a5b4fc', 400: '#818cf8',
+              500: '#6366f1', 600: '#4f46e5', 700: '#4338ca', 800: '#3730a3', 900: '#312e81'
+            }
+          },
+          boxShadow: {
+            soft: '0 8px 32px rgba(2,8,23,.08)'
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    /* Detalhes visuais extras */
+    .card { transition: transform .25s ease, box-shadow .25s ease; }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(2,8,23,.08); }
+    .glass { backdrop-filter: saturate(140%) blur(10px); }
+    .gradient-hero { background-image: radial-gradient(1200px 600px at 10% -20%, rgba(99,102,241,.14), transparent), radial-gradient(800px 400px at 90% 10%, rgba(14,165,233,.12), transparent), linear-gradient(to bottom, #f8fafc, #ffffff); }
+    .hidden-page { display:none; }
+    .show { display:block; }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col bg-white text-slate-900">
+<!-- Header -->
+<header class="sticky top-0 z-40 border-b border-slate-100 bg-white/70 glass">
+<div class="max-w-7xl mx-auto px-4 lg:px-6 py-3 flex items-center justify-between">
+<a class="flex items-center gap-3 group" href="#/">
+<div class="w-10 h-10 rounded-2xl overflow-hidden shadow"><img alt="Logo Montenegro Soluções" class="w-full h-full object-contain" src="logo M.png"/></div>
+<div class="leading-tight">
+<span class="font-semibold block -mb-0.5">Montenegro Soluções</span>
+<span class="text-xs text-slate-500">Contábil • Fiscal • Jurídico</span>
+</div>
+</a>
+<nav class="hidden md:flex items-center gap-6 text-sm">
+<a class="hover:text-slate-900 text-slate-600" href="#/">Início</a>
+<a class="hover:text-slate-900 text-slate-600" href="#/sobre">Sobre</a>
+<a class="hover:text-slate-900 text-slate-600" href="#/servicos">Serviços</a>
+<a class="hover:text-slate-900 text-slate-600" href="#/trabalhe-conosco">Trabalhe Conosco</a>
+<a class="hover:text-slate-900 text-slate-600" href="#/contato">Contato</a>
+</nav>
+<div class="flex items-center gap-2">
+<a class="hidden sm:inline-flex px-4 py-2 rounded-2xl bg-brand-600 hover:bg-brand-700 text-white text-sm shadow-soft" href="#/contato">Fale Conosco</a>
+<button aria-label="Abrir menu" class="md:hidden p-2 rounded-xl hover:bg-slate-100" id="menuBtn"><svg class="h-6 w-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg></button>
+</div>
+</div>
+<!-- Mobile menu -->
+<div class="md:hidden hidden border-t border-slate-100 bg-white" id="mobileMenu">
+<div class="max-w-7xl mx-auto px-4 py-3 grid gap-2 text-sm">
+<a class="py-2" href="#/">Início</a>
+<a class="py-2" href="#/sobre">Sobre</a>
+<a class="py-2" href="#/servicos">Serviços</a>
+<a class="py-2" href="#/trabalhe-conosco">Trabalhe Conosco</a>
+<a class="py-2" href="#/contato">Contato</a>
+</div>
+</div>
+</header>
+<main class="flex-1" id="app">
+<!-- HOME -->
+<section class="page show" data-route="/">
+<!-- Hero -->
+<div class="gradient-hero">
+<div class="max-w-7xl mx-auto px-4 lg:px-6 pt-14 pb-10 md:pt-20 md:pb-16 grid md:grid-cols-2 gap-10 items-center">
+<div>
+<span class="inline-flex items-center gap-2 text-xs px-2.5 py-1 rounded-full bg-slate-900 text-white">Excelência e Confiança</span>
+<h1 class="mt-4 text-3xl md:text-5xl font-semibold tracking-tight">Soluções contábeis, fiscais e jurídicas para acelerar o crescimento do seu negócio.</h1>
+<p class="mt-4 text-slate-600 max-w-xl">Estratégia, técnica e tecnologia em um mesmo lugar — para você decidir com segurança e ganhar eficiência.</p>
+<div class="mt-6 flex flex-wrap gap-3">
+<a class="px-5 py-3 rounded-2xl bg-brand-600 hover:bg-brand-700 text-white text-sm shadow-soft" href="#/servicos">Conheça os serviços</a>
+<a class="px-5 py-3 rounded-2xl bg-slate-900/80 hover:bg-slate-900 text-white text-sm shadow-soft" href="#/contato">Fale com um especialista</a>
+</div>
+<div class="mt-6 flex items-center gap-6 text-xs text-slate-600">
+<div class="flex items-center gap-2"><svg class="h-5 w-5" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 12.75 11.25 15 15 9.75"></path><path clip-rule="evenodd" d="M1.5 12a10.5 10.5 0 1 1 21 0 10.5 10.5 0 0 1-21 0Zm19.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" fill-rule="evenodd"></path></svg>Atendimento consultivo</div>
+<div class="flex items-center gap-2"><svg class="h-5 w-5" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11.7 1.9a1 1 0 0 1 .6 0l8 3A1 1 0 0 1 21 6v5a10 10 0 1 1-18 0V6a1 1 0 0 1-.3-.1l8-3Z"></path></svg>Compliance e segurança</div>
+<div class="flex items-center gap-2"><svg class="h-5 w-5" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 3h7v7H3V3Zm0 11h7v7H3v-7Zm11-11h7v7h-7V3Zm0 11h7v7h-7v-7Z"></path></svg>Serviços integrados</div>
+</div>
+</div>
+<div class="relative">
+<div class="aspect-[4/3] rounded-3xl bg-white border border-slate-200 shadow-soft p-4 grid grid-cols-2 gap-3">
+<div class="rounded-2xl border border-slate-200 grid place-content-center text-center text-xs md:text-sm card"><span class="px-2">Contábil</span></div>
+<div class="rounded-2xl border border-slate-200 grid place-content-center text-center text-xs md:text-sm card"><span class="px-2">Fiscal</span></div>
+<div class="rounded-2xl border border-slate-200 grid place-content-center text-center text-xs md:text-sm card"><span class="px-2">Societário</span></div>
+<div class="rounded-2xl border border-slate-200 grid place-content-center text-center text-xs md:text-sm card"><span class="px-2">Gestão Financeira</span></div>
+<div class="rounded-2xl border border-slate-200 grid place-content-center text-center text-xs md:text-sm card"><span class="px-2">Auditoria</span></div>
+<a class="rounded-2xl border border-slate-200 grid place-content-center text-center text-xs md:text-sm card" href="https://montenegrocorretagem.com.br" target="_blank"><span class="px-2">Corretagem</span></a>
+<div class="rounded-2xl border border-slate-200 grid place-content-center text-center text-xs md:text-sm card"><span class="px-2">Departamento Pessoal</span></div>
+<div class="rounded-2xl border border-slate-200 grid place-content-center text-center text-xs md:text-sm card"><span class="px-2">Assessoria Jurídica</span></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Destaques -->
+<section class="max-w-7xl mx-auto px-4 lg:px-6 py-16">
+<h2 class="text-2xl md:text-3xl font-semibold">Soluções Empresariais Especializadas</h2>
+<p class="mt-3 text-slate-700 max-w-3xl">Atendimento personalizado, com foco em performance tributária, governança e segurança jurídica para empresas de todos os portes.</p>
+<div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="p-5 rounded-2xl border border-slate-200 card">
+<div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 grid place-content-center mb-3"><svg class="h-5 w-5" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11 3a1 1 0 0 1 2 0v2h2a1 1 0 1 1 0 2h-2v2a1 1 0 1 1-2 0V7H9a1 1 0 1 1 0-2h2V3Z"></path><path d="M4 7h2v10H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2Zm16 0h-2v10h2a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2Z"></path><path d="M8 19h8v2H8z"></path></svg></div>
+<h3 class="font-semibold">Planejamento Tributário</h3>
+<p class="mt-1 text-sm text-slate-700">Simulações comparativas (Simples, Presumido e Real), Fator R, PIS/COFINS e INSS patronal.</p>
+</div>
+<div class="p-5 rounded-2xl border border-slate-200 card">
+<div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 grid place-content-center mb-3"><svg class="h-5 w-5" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20Zm-1 9V7h2v4h3v2h-5V9Z"></path></svg></div>
+<h3 class="font-semibold">Gestão Financeira</h3>
+<p class="mt-1 text-sm text-slate-700">Fluxo de caixa, DRE gerencial e apoio a decisões com indicadores claros.</p>
+</div>
+<div class="p-5 rounded-2xl border border-slate-200 card">
+<div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 grid place-content-center mb-3"><svg class="h-5 w-5" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.75 22 7l-10 5.25L2 7l10-5.25Z"></path><path d="M22 17l-10 5-10-5"></path></svg></div>
+<h3 class="font-semibold">Societário &amp; Auditoria</h3>
+<p class="mt-1 text-sm text-slate-700">Constituição, alterações, reorganização e auditorias com foco em compliance.</p>
+</div>
+<div class="p-5 rounded-2xl border border-slate-200 card">
+<div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 grid place-content-center mb-3"><svg class="h-5 w-5" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 12a5 5 0 1 1 0-10 5 5 0 0 1 0 10Z"></path><path d="M4 22a8 8 0 1 1 16 0H4Z"></path></svg></div>
+<h3 class="font-semibold">Assessoria Jurídica</h3>
+<p class="mt-1 text-sm text-slate-700">Cível, trabalhista, empresarial e imobiliário com atuação estratégica.</p>
+</div>
+</div>
+<div class="mt-12 rounded-3xl border border-slate-200 p-8 bg-gradient-to-br from-white to-slate-50">
+<div>
+<h3 class="text-xl font-semibold">Parceria para crescer com segurança</h3>
+<p class="mt-2 text-slate-700">Conte com um parceiro único para estruturação financeira, otimização tributária e suporte jurídico.</p>
+<a class="inline-block mt-4 px-4 py-2 rounded-2xl bg-slate-900 text-white text-sm shadow-soft" href="#/contato">Falar agora</a>
+</div>
+
+</div>
+</section>
+
+<!-- Localização na Home -->
+<section class="max-w-7xl mx-auto px-4 lg:px-6 py-16">
+  <h2 class="text-2xl md:text-3xl font-semibold">Onde Estamos</h2>
+  <p class="mt-2 text-slate-700">Venha nos visitar em nossa sede em Petrópolis/RJ.</p>
+  <div class="mt-6 aspect-video rounded-xl overflow-hidden border border-slate-200">
+    <iframe 
+      src="https://www.google.com/maps?q=Avenida%20Coronel%20Albino%20Siqueira%2C%20382%2C%20Petr%C3%B3polis%2C%20RJ&output=embed" 
+      width="100%" height="100%" style="border:0;" 
+      allowfullscreen="" loading="lazy" 
+      title="Mapa – Montenegro Soluções">
+    </iframe>
+  </div>
+</section>
+
+<!-- Depoimentos / Prova social -->
+<section class="bg-slate-50">
+<div class="max-w-7xl mx-auto px-4 lg:px-6 py-16">
+<h2 class="text-2xl md:text-3xl font-semibold">Clientes que confiam</h2>
+<div class="mt-8 grid md:grid-cols-3 gap-6">
+<figure class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+<blockquote class="text-slate-700">“Profissionalismo e análise técnica impecável. Reduzimos carga tributária com total segurança.”</blockquote>
+<figcaption class="mt-4 text-sm text-slate-500">Diretora Financeira • Setor de Serviços</figcaption>
+</figure>
+<figure class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+<blockquote class="text-slate-700">“Atendimento consultivo de verdade. Resolveram questões societárias e trabalhistas com agilidade.”</blockquote>
+<figcaption class="mt-4 text-sm text-slate-500">CEO • Comércio</figcaption>
+</figure>
+<figure class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+<blockquote class="text-slate-700">“Integração contábil + jurídico simplificou nossa operação e trouxe previsibilidade.”</blockquote>
+<figcaption class="mt-4 text-sm text-slate-500">Gestor • Indústria</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<!-- Chamada final -->
+<section class="max-w-7xl mx-auto px-4 lg:px-6 py-16">
+<div class="rounded-3xl p-8 md:p-10 bg-gradient-to-r from-brand-600 to-slate-900 text-white shadow-soft grid md:grid-cols-2 gap-6 items-center">
+<div>
+<h3 class="text-2xl font-semibold">Pronto para dar o próximo passo?</h3>
+<p class="mt-2 text-white/80">Conte com uma equipe que une estratégia, técnica e tecnologia.</p>
+</div>
+<div class="flex md:justify-end items-center gap-3">
+<a class="px-5 py-3 rounded-2xl bg-white text-slate-900 text-sm" href="#/contato">Fale Conosco</a>
+<a class="px-5 py-3 rounded-2xl border border-white/30 text-sm" href="https://wa.me/5524988077503" target="_blank">WhatsApp</a>
+</div>
+</div>
+</section>
+</section>
+<!-- SOBRE -->
+<section class="page hidden-page" data-route="/sobre">
+<div class="max-w-3xl mx-auto px-4 lg:px-6 py-12">
+<h2 class="text-2xl md:text-3xl font-semibold">Sobre a Montenegro Soluções</h2>
+<p class="mt-4 text-slate-700">Somos um escritório especializado em soluções jurídicas e empresariais, com atuação integrada em contabilidade, fiscal, societário, auditoria e consultoria financeira. Nosso propósito é ser parceiro estratégico para decisões sólidas, com ética e transparência.</p>
+<div class="mt-8 grid md:grid-cols-3 gap-8">
+<div>
+<h3 class="font-semibold">Visão</h3>
+<ul class="mt-3 text-slate-700 list-disc list-inside space-y-1">
+<li>Referência nacional em soluções empresariais.</li>
+<li>Excelência e inovação contínuas.</li>
+<li>Parceria estratégica de longo prazo.</li>
+</ul>
+</div>
+<div>
+<h3 class="font-semibold">Missão</h3>
+<ul class="mt-3 text-slate-700 list-disc list-inside space-y-1">
+<li>Gerar segurança e desempenho para nossos clientes.</li>
+<li>Aplicar técnica com linguagem simples e prática.</li>
+<li>Investir em pessoas e tecnologia.</li>
+</ul>
+</div>
+<div>
+<h3 class="font-semibold">Valores</h3>
+<ul class="mt-3 text-slate-700 list-disc list-inside space-y-1">
+<li>Ética e Integridade</li>
+<li>Excelência</li>
+<li>Foco no Cliente</li>
+<li>Inovação</li>
+<li>Valorização Humana</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- SERVIÇOS -->
+<section class="page hidden-page" data-route="/servicos">
+<div class="max-w-7xl mx-auto px-4 lg:px-6 py-12">
+<h2 class="text-2xl md:text-3xl font-semibold">Confira nossos serviços</h2>
+<div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Reutiliza cartões com estilo consistente -->
+<div class="rounded-2xl border border-slate-200 p-5 card">
+<h4 class="font-semibold">Assessoria Jurídica Especializada</h4>
+<p class="mt-2 text-sm text-slate-700">Cível, trabalhista, empresarial e imobiliário com atuação estratégica.</p>
+<a class="inline-block mt-3 text-sm underline underline-offset-4" href="#/contato">Saiba mais</a>
+</div>
+<div class="rounded-2xl border border-slate-200 p-5 card">
+<h4 class="font-semibold">Gestão Financeira</h4>
+<p class="mt-2 text-sm text-slate-700">Fluxo de caixa, DRE gerencial e apoio a decisões com indicadores.</p>
+<a class="inline-block mt-3 text-sm underline underline-offset-4" href="#/contato">Saiba mais</a>
+</div>
+<div class="rounded-2xl border border-slate-200 p-5 card">
+<h4 class="font-semibold">Auditoria Transparente</h4>
+<p class="mt-2 text-sm text-slate-700">Auditorias para melhorias operacionais e conformidade.</p>
+<a class="inline-block mt-3 text-sm underline underline-offset-4" href="#/contato">Saiba mais</a>
+</div>
+<div class="rounded-2xl border border-slate-200 p-5 card">
+<h4 class="font-semibold">Consultoria Fiscal</h4>
+<p class="mt-2 text-sm text-slate-700">Planejamento tributário, PIS/COFINS, Simples, Presumido e Real.</p>
+<a class="inline-block mt-3 text-sm underline underline-offset-4" href="#/contato">Saiba mais</a>
+</div>
+<div class="rounded-2xl border border-slate-200 p-5 card">
+<h4 class="font-semibold">Serviços Contábeis</h4>
+<p class="mt-2 text-sm text-slate-700">Rotinas, demonstrações e relatórios claros para gestão.</p>
+<a class="inline-block mt-3 text-sm underline underline-offset-4" href="#/contato">Saiba mais</a>
+</div>
+<div class="rounded-2xl border border-slate-200 p-5 card">
+<h4 class="font-semibold">Departamento Pessoal</h4>
+<p class="mt-2 text-sm text-slate-700">Folha, eSocial e compliance trabalhista.</p>
+<a class="inline-block mt-3 text-sm underline underline-offset-4" href="#/contato">Saiba mais</a>
+</div>
+<div class="rounded-2xl border border-slate-200 p-5 card">
+<h4 class="font-semibold">Societário</h4>
+<p class="mt-2 text-sm text-slate-700">Constituição, alterações e reorganização.</p>
+<a class="inline-block mt-3 text-sm underline underline-offset-4" href="#/contato">Saiba mais</a>
+</div>
+<div class="rounded-2xl border border-slate-200 p-5 card">
+<h4 class="font-semibold">Corretagem</h4>
+<p class="mt-2 text-sm text-slate-700">Intermediação com segurança jurídica.</p>
+<a class="inline-block mt-3 text-sm underline underline-offset-4" href="https://montenegrocorretagem.com.br" target="_blank">Saiba mais</a>
+</div>
+</div>
+<div class="mt-12 rounded-3xl border border-slate-200 p-8 bg-gradient-to-br from-white to-slate-50">
+<div>
+<h3 class="text-xl font-semibold">Serviços Jurídicos Profissionais</h3>
+<p class="mt-2 text-slate-700">Descubra como podemos ajudar sua empresa com soluções jurídicas eficazes e personalizadas.</p>
+<a class="inline-block mt-4 px-4 py-2 rounded-2xl bg-slate-900 text-white text-sm" href="#/contato">Contato</a>
+</div>
+
+</div>
+</div>
+</section>
+<!-- TRABALHE CONOSCO -->
+<section class="page hidden-page" data-route="/trabalhe-conosco">
+<div class="max-w-3xl mx-auto px-4 lg:px-6 py-12">
+<h2 class="text-2xl md:text-3xl font-semibold">Trabalhe Conosco</h2>
+<p class="mt-4 text-slate-700">Faça parte da Montenegro Soluções. Excelência, inovação e crescimento profissional.</p>
+<h3 class="mt-8 font-semibold">Áreas</h3>
+<ul class="mt-2 text-slate-700 list-disc list-inside space-y-1">
+<li>Consultoria Jurídica</li>
+<li>Administração e Gestão</li>
+<li>Atendimento ao Cliente</li>
+<li>Marketing e Comunicação</li>
+<li>Tecnologia e Suporte</li>
+</ul>
+<div class="mt-8 p-5 rounded-2xl border border-slate-200 bg-white">
+<h4 class="font-semibold">Envie seu currículo</h4>
+<p class="mt-2 text-slate-700">Email: <a class="underline" href="mailto:montenegrosolucoes@gmail.com">montenegrosolucoes@gmail.com</a></p>
+</div>
+</div>
+</section>
+<!-- CONTATO -->
+<section class="page hidden-page" data-route="/contato">
+<div class="max-w-5xl mx-auto px-4 lg:px-6 py-12">
+<h2 class="text-2xl md:text-3xl font-semibold">Contato</h2>
+<div class="mt-6 grid md:grid-cols-2 gap-8">
+<div>
+<h3 class="font-semibold">Fale com a gente</h3>
+<p class="mt-2 text-slate-700">Email: <a class="underline" href="mailto:contato@montenegrosolucoes.com.br">contato@montenegrosolucoes.com.br</a><br/>
+              Telefones: (24) 2222-6147 • (24) 98807-7503</p>
+<div class="mt-4 flex items-center gap-3 text-slate-600">
+<a class="hover:text-slate-900" href="https://instagram.com" target="_blank">Instagram</a>
+<span>•</span>
+<a class="hover:text-slate-900" href="https://wa.me/5524988077503" target="_blank">WhatsApp</a>
+</div>
+<div class="mt-6">
+<a class="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-brand-600 hover:bg-brand-700 text-white text-sm shadow-soft" href="https://wa.me/5524988077503" target="_blank"><svg class="h-5 w-5" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.998a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm.6 14.7c-2.7 0-4.8-2.2-4.8-4.8 0-.8.2-1.6.6-2.3l-.4-1.5 1.6.4c.7-.4 1.5-.6 2.3-.6 2.7 0 4.8 2.2 4.8 4.8 0 2.1-1.4 3.9-3.3 4.5-.2 0-.5 0-.8.1Z"></path></svg>Chamar no WhatsApp</a>
+</div>
+</div>
+<div>
+<h3 class="font-semibold">Localização</h3>
+<p class="mt-2 text-slate-700">Av. Coronel Albino Siqueira, 382 – Alto da Serra, Petrópolis/RJ</p>
+<p class="mt-1 text-slate-700">Funcionamento: 8:00 às 17:30</p>
+<div class="mt-4 aspect-video rounded-xl overflow-hidden border border-slate-200">
+<iframe allowfullscreen="" height="100%" loading="lazy" src="https://www.google.com/maps?q=Avenida%20Coronel%20Albino%20Siqueira%2C%20382%2C%20Petr%C3%B3polis%2C%20RJ&amp;output=embed" style="border:0" title="Mapa – Montenegro Soluções" width="100%"></iframe>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="mt-24 border-t border-slate-100">
+<div class="max-w-7xl mx-auto px-4 lg:px-6 py-12 grid md:grid-cols-4 gap-8 text-sm">
+<div>
+<div class="flex items-center gap-2 mb-3">
+<div class="w-9 h-9 rounded-xl overflow-hidden"><img alt="Logo Montenegro Soluções" class="w-full h-full object-contain" src="logo M.png"/></div>
+<span class="font-semibold">Montenegro Soluções</span>
+</div>
+<p class="text-slate-600">Soluções contábeis, jurídicas e empresariais modernas e confiáveis.</p>
+</div>
+<div>
+<h4 class="font-semibold mb-3">Menu</h4>
+<ul class="space-y-2 text-slate-600">
+<li><a class="hover:text-slate-900" href="#/sobre">Sobre</a></li>
+<li><a class="hover:text-slate-900" href="#/trabalhe-conosco">Trabalhe Conosco</a></li>
+<li><a class="hover:text-slate-900" href="#/contato">Contato</a></li>
+<li><a class="hover:text-slate-900" href="#/">Política de Privacidade</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-semibold mb-3">Serviços</h4>
+<ul class="space-y-2 text-slate-600">
+<li>Corretagem</li>
+<li>Contábil</li>
+<li>Fiscal</li>
+<li>Auditoria</li>
+<li>Societário</li>
+<li>Gestão Financeira</li>
+<li>Departamento Pessoal</li>
+<li>Assessoria Jurídica</li>
+</ul>
+</div>
+<div>
+<h4 class="font-semibold mb-3">Contatos</h4>
+<ul class="space-y-2 text-slate-600">
+<li>(24) 2222-6147</li>
+<li>(24) 98807-7503</li>
+<li><a class="hover:text-slate-900" href="mailto:contato@montenegrosolucoes.com.br">contato@montenegrosolucoes.com.br</a></li>
+</ul>
+<div class="mt-4 flex items-center gap-3 text-slate-600">
+<a class="hover:text-slate-900" href="https://instagram.com" target="_blank">Instagram</a>
+<span>•</span>
+<a class="hover:text-slate-900" href="https://wa.me/5524988077503" target="_blank">WhatsApp</a>
+</div>
+</div>
+</div>
+<div class="text-center text-xs text-slate-500 pb-8">© 2025 Montenegro Soluções • Feito com ♥</div>
+</footer>
+<script>
+    // Menu mobile
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn?.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+
+    // Roteamento baseado em hash (#/rota)
+    (function() {
+      function showRoute() {
+        const hash = location.hash || "#/";
+        const route = hash.replace(/^#/, "");
+        document.querySelectorAll('.page').forEach(sec => {
+          const r = sec.getAttribute('data-route');
+          if (r === route) { sec.classList.remove('hidden-page'); sec.classList.add('show'); }
+          else { sec.classList.add('hidden-page'); sec.classList.remove('show'); }
+        });
+        // Fecha menu mobile ao navegar
+        mobileMenu?.classList.add('hidden');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+      window.addEventListener('hashchange', showRoute);
+      if (!location.hash) location.hash = "#/";
+      showRoute();
+    })();
+
+    // Schema.org – Organização
+    (function(){
+      const ld = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Montenegro Soluções Empresariais",
+        "url": "https://www.montenegrosolucoes.com.br",
+        "logo": "https://www.montenegrosolucoes.com.br/logo.png",
+        "telephone": ["+55-24-2222-6147", "+55-24-98807-7503"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Av. Coronel Albino Siqueira, 382",
+          "addressLocality": "Petrópolis",
+          "addressRegion": "RJ",
+          "addressCountry": "BR"
+        }
+      };
+      const s = document.createElement('script');
+      s.type = 'application/ld+json';
+      s.text = JSON.stringify(ld);
+      document.head.appendChild(s);
+    })();
+  </script>
+</body>
+</html>
